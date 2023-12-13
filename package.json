@@ -1,0 +1,30 @@
+{
+  "name": "starter-nextjs-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "next": "^13.5",
+    "next-plugin-preact": "^3.0.7",
+    "postcss": "^8.4.32",
+    "preact": "^10.19.3",
+    "preact-render-to-string": "^6.3.1",
+    "react": "npm:@preact/compat@^18.2.0",
+    "react-dom": "npm:@preact/compat@^18.2.0",
+    "react-ssr-prepass": "npm:preact-ssr-prepass",
+    "tailwindcss": "^3.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.4",
+    "@types/react": "18.2.43",
+    "eslint": "8.22.0",
+    "eslint-config-next": "14.0.4",
+    "typescript": "5.3.3"
+  }
+}
