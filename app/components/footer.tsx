@@ -11,8 +11,8 @@ export const Footer = () => {
               <input
                 type="email"
                 id="email"
-                className="bg-white h-8 border border-slate-500 text-slate-500 text-sm rounded-sm focus:outline-none block w-full p-2.5"
-                placeholder="email"
+                className="bg-white h-6 border border-slate-500 text-slate-500 text-sm rounded-sm focus:outline-none block w-full p-2.5"
+                placeholder="enter your email address"
               />
               <button
                 type="submit"
