@@ -18,10 +18,16 @@ export const Navbar = () => {
         <div className="hidden sm:flex">
           <ul className="hidden sm:flex">
             <Link
-              href="/project"
+              href="/7rad"
               className="text-white p-2 text-xs hover:border-b"
             >
-              Project
+              7Rad
+            </Link>
+            <Link
+                href="/pyrenees"
+                className="text-white p-2 text-xs hover:border-b"
+            >
+              Pyrénées
             </Link>
             <Link
               href="/archive"
@@ -62,8 +68,13 @@ export const Navbar = () => {
           <div className="md:hidden flex w-full">
             <div className="flex-col flex pl-2">
               <ul>
-                <Link href="/project" className="text-white p-2 text-xs">
-                  Project
+                <Link href="/7rad" className="text-white p-2 text-xs">
+                  7rad
+                </Link>
+              </ul>
+              <ul>
+                <Link href="/pyrenees" className="text-white p-2 text-xs">
+                  Pyrénées
                 </Link>
               </ul>
               <ul>
