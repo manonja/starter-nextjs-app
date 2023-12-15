@@ -13,7 +13,7 @@ export const Navbar = () => {
     <nav className="fixed bg-slate-900 w-full h-24 shadow-xl">
       <div className="flex items-center justify-between h-full w-full px-4 2xl:px-16 ">
         <Link href="/" className="text-white">
-          Awesome Name
+          Anton Bossenbroek
         </Link>
         <div className="hidden sm:flex">
           <ul className="hidden sm:flex">

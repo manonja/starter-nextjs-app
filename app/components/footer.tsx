@@ -24,7 +24,7 @@ export const Footer = () => {
           <div className="sm:hidden flex items-center space-x-4">
             <div>
               <Link
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/anton__photography"
                 className="text-xs text-slate-500"
               >
                 <Image
@@ -36,48 +36,18 @@ export const Footer = () => {
                 />
               </Link>
             </div>
-            <div className="text-xs text-slate-500 ">|</div>
-            <div>
-              <Link
-                href="https://www.github.com/"
-                className="text-xs text-slate-500 "
-              >
-                <Image
-                  src="/github.svg"
-                  alt="github icon"
-                  height={20}
-                  width={20}
-                  color="text-slate-500"
-                />
-              </Link>
-            </div>
           </div>
         </div>
-        <div className="text-xs text-slate-500">© 2023 Awesome Name</div>
+        <div className="text-xs text-slate-500">© 2023 Anton Bossenbroek</div>
         <div className="hidden sm:flex sm:space-x-4 sm:items-center">
           <div>
             <Link
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/anton__photography"
               className="text-xs text-slate-500"
             >
               <Image
                 src="/instagram.svg"
                 alt="instagram icon"
-                height={28}
-                width={28}
-                color="text-slate-500"
-              />
-            </Link>
-          </div>
-          <div className="text-xs text-slate-500 ">|</div>
-          <div>
-            <Link
-              href="https://www.github.com/"
-              className="text-xs text-slate-500 "
-            >
-              <Image
-                src="/github.svg"
-                alt="github icon"
                 height={28}
                 width={28}
                 color="text-slate-500"
