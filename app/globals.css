@@ -16,3 +16,20 @@ body {
   color: rgb(var(--foreground-rgb));
   background-color: #0f172a;
 }
+
+input {
+  color: #64748b;
+  background-color:#0f172a;
+  font-size: 0.75rem;
+  outline: 1px solid #64748b;
+  outline-offset: 4px;
+}
+
+button {
+  color: #64748b;
+  font-size: 0.75rem;
+  background-color:#0f172a;
+  cursor: pointer;
+  padding-left: 10px;
+
+}
