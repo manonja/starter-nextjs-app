@@ -10,7 +10,7 @@ export const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <nav className="fixed bg-slate-900 w-full h-24 shadow-xl">
+    <nav className="fixed top-0 z-20 bg-slate-900 w-full h-24 shadow-xl">
       <div className="flex items-center justify-between h-full w-full px-4 2xl:px-16 ">
         <Link href="/" className="text-white">
           Anton Bossenbroek
