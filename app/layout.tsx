@@ -20,9 +20,13 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
-        <main className="flex overflow-auto h-[calc(100vh-94px)] flex-col items-center justify-between p-24">
-          {children}
-        </main>
+        <div className="container">
+          <main className="flex overflow-auto h-[calc(100vh-94px)] flex-col items-center items-start z-10">
+            <div className='relative flex-auto w-full p-0 '>
+              {children}
+            </div>
+          </main>
+        </div>
         <Footer />
       </body>
     </html>
