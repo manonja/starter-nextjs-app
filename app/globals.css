@@ -14,27 +14,27 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-color: #0f172a;
+  background-color: #171717;
 }
 
 input {
-  color: #475569;
-  background-color:#0f172a;
+  color: #525252;
+  background-color:#171717;
   font-size: 0.75rem;
-  outline: 1px solid #64748b;
+  outline: 1px solid #525252;
   outline-offset: 4px;
 }
 
 input::placeholder {
   font-weight: bold;
   opacity: 0.5;
-  color: #475569;
+  color: #525252;
   font-size: 0.75rem;
   padding-left: 10px;
 }
 
 button {
-  color: #475569;
+  color: #525252;
   font-size: 0.75rem;
   cursor: pointer;
   padding-left: 10px;
