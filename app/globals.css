@@ -18,17 +18,24 @@ body {
 }
 
 input {
-  color: #64748b;
+  color: #475569;
   background-color:#0f172a;
   font-size: 0.75rem;
   outline: 1px solid #64748b;
   outline-offset: 4px;
 }
 
-button {
-  color: #64748b;
+input::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: #475569;
   font-size: 0.75rem;
-  background-color:#0f172a;
+  padding-left: 10px;
+}
+
+button {
+  color: #475569;
+  font-size: 0.75rem;
   cursor: pointer;
   padding-left: 10px;
 

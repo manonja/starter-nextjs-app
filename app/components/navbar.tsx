@@ -30,12 +30,6 @@ export const Navbar = () => {
               Pyrénées
             </Link>
             <Link
-              href="/archive"
-              className="text-white p-2 text-xs hover:border-b"
-            >
-              Archive
-            </Link>
-            <Link
               href="/about"
               className="text-white p-2 text-xs hover:border-b"
             >
@@ -75,11 +69,6 @@ export const Navbar = () => {
               <ul>
                 <Link href="/pyrenees" className="text-white p-2 text-xs">
                   Pyrénées
-                </Link>
-              </ul>
-              <ul>
-                <Link href="/project" className="text-white p-2 text-xs">
-                  Archive
                 </Link>
               </ul>
 
