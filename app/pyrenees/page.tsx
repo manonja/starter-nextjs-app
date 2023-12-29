@@ -3,5 +3,5 @@ import pyr from "../../public/pyr/pyr.jpg";
 
 
 export default function Pyrenees() {
-  return <Photo photo={pyr}/>;
+  return <Photo photo={pyr} withDivider/>;
 }
