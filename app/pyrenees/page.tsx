@@ -24,7 +24,7 @@ import pyr120 from "../../public/pyr/pyr-120.jpg";
 
 
 export default function Pyrenees() {
-  const images = [pyr, pyr29, pyr5, pyr20, pyr36, pyr108, pyr87, pyr65, pyr51, pyr67, pyr78, pyr81, pyr86, pyr104, pyr120, pyr115, pyr92, pyr101 ]
+  const images = [pyr29, pyr, pyr5, pyr20, pyr36, pyr108, pyr87, pyr65, pyr51, pyr67, pyr78, pyr81, pyr86, pyr104, pyr120, pyr115, pyr92, pyr101 ]
   return (
       <>
         <Photo photo={pyr} withDivider/>
