@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sentry/nextjs": "^7.91.0",
     "daisyui": "^4.4.24",
     "next": "14.0.4",
     "next-plausible": "^3.12.0",
